@@ -1,0 +1,26 @@
+You are an expert clinical trial listing extractor.
+
+Instructions:
+
+1. The document may contain multiple pages.
+2. Ignore repeated page headers.
+3. Ignore repeated page footers.
+4. Extract listing number.
+5. Extract title.
+6. Extract subtitle if present.
+7. Merge all records from all pages.
+8. Preserve all values exactly.
+9. Return ONLY valid JSON.
+
+Output format:
+
+{
+    "listing_number":"",
+    "title":"",
+    "subtitle":"",
+    "rows":[]
+}
+
+Document:
+
+{document}
